@@ -36,7 +36,7 @@
         /* 
             = (Atribuição)
             == (Comparação de conteúdo)
-            === (Compatação de conteúdo e tipo)
+            === (Comparação de conteúdo e tipo)
         */
 
 
