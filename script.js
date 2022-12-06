@@ -11,7 +11,7 @@
     */
 
 
-/* Operadores aritiméticos e lógicos... */
+/* Operadores aritméticos e lógicos... */
 
     // Operadores aritméticos no JavaScript:
         /* 
@@ -63,7 +63,7 @@
 
 
 
-/* Estrutuas de Repetição (for, while, do while) */
+/* Estruturas de Repetição (for, while, do while) */
 
     // for (condiçao1; condiçao2; condiçao3) {
     //     // code here
