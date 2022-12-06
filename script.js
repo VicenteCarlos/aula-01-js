@@ -1,92 +1,102 @@
-/* ---- Variáveis ---- */
-// let
-// const
-// var
+/* Variáveis */
+// let nome = "Vicente", numero = 1, bool = true // or false
+// console.log(typeof false)
 
-//Tipos de dados
-// - String (Cadeia de caracteres)
-// - Number (Números)
-// - Boolean (Verdadeiro ou falso)
 
-//let nome = 'João Lemos', numero = 1, eVerdadeiro = false //true
-// console.log(nome)
-// console.log(numero)
-// console.log(eVerdadeiro)
+    // Tipos de dados no JavaScript:
+    /* 
+        Number (Números), 
+        String (Cadeia de caracteres), 
+        Boolean (Verdadeiro ou Falso) 
+    */
 
-// Descobrindo a tipagem dos dados
-// console.log(typeof 1)
 
-// Operadores lógicos e aritiméticos
-/* + (soma)
-   - (subtração)
-   * (multiplicação)
-   / (Divisão)
+/* Operadores aritiméticos e lógicos... */
 
-    = (atribuição)
-    == (Comparação do valor)
-    === (Comparação do valor e tipo)
+    // Operadores aritméticos no JavaScript:
+        /* 
+            + (Soma)
+            - (Subtração)
+            / (Divisãp)
+            * (Multiplicação)
+        */
 
-*/
+        // let numero = 30
 
-//    console.log('1' + 1) // Exemplo de concatenção ou junção
+        // console.log(`O valor da variável é: ${numero}`) //Concatenação ou Junção, é uma forma de juntar cadeia de caracteres
 
-/* ---- Estruturas codicionais ---- */
+    // Operadores lógicos no JavaScript:
+        /* 
+            && (Conjunção)
+            || (Disjunção)
+           
+        */
 
-// Há dois tipos, sendo eles: if e o "?" (ternário)
+    // Operadores relacionais no JavaScript:
+        /* 
+            = (Atribuição)
+            == (Comparação de conteúdo)
+            === (Compatação de conteúdo e tipo)
+        */
+
+
+/* Estruturas Condicionais (if e o ternário "?") */
 
 // let numero = 2
 
-// if ('2' === 2) {
-//     // Caso dentro dos parênteses seja true, esse bloco de código vai ser executado
-//     console.log("Número dois")
+// if (numero === 10) {
+//     console.log(true)
 // } else {
-//     console.log("Não é o número " + 2)
+//     console.log(false)
 // }
 
-// let numero = 2
-
-// if (numero == 0) {
-//     console.log(`O número é ${numero}`)
-// } else if (numero == 1) {
-//     console.log(`1 é igual a ${numero}`)
+// if (numero === 0) {
+//     console.log(true)
+// } else if (numero === 1) {
+//     console.log("É UM")
 // } else {
-//     console.log("Não é 1 e nem zero")
+//     console.log("Não é um e nem zero")
 // }
 
-// Ternário, é uma forma resumida de fazer uma estrutura condicional
-
-// console.log(1 == 0 ? true : false)
-
-// if (1 == 1) {
-//     //true
-// } else {
-//     //false
-// }
-
-// Estruturas de repetição (for, while, do while)
-
-
-// for (let contador = 1; contador <= 100; contador++) {
-//     console.log(`Contador: ${contador}`)
-// }
-
-let contador = 1
-
-// while (contador <= 5) {
-//     console.log(contador)
-//     contador++
-// }
-
-do {
-    console.log(contador)
-    contador++
-} while (contador <= 10)
+// console.log(1 === 0  ? true : false)
 
 
 
 
+/* Estrutuas de Repetição (for, while, do while) */
+
+    // for (condiçao1; condiçao2; condiçao3) {
+    //     // code here
+    // }
+
+    // for (let contador = 1; contador <= 10; contador++) {
+    //     console.log(contador)
+    // }
+
+    // let contador = 100
+
+    // while (contador <= 5) {
+    //     console.log(contador)
+    //     contador++
+    // }
+
+    // do {
+    //     console.log(contador)
+    //     contador++
+    // } while(contador <= 15)
+
+/* Funcionalidade de tipo de declaração de variável */
+let pi;
+console.log(pi)
 
 
 
 
-/* ---- Desconhecido... ---- */
+
+
+
+
+
+
+
+
